@@ -1,0 +1,203 @@
+body {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 35%;
+    margin-top: -20px;
+    margin-bottom: 50px;    
+}
+
+#mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#userMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px 40px 10px 40px; /* üst sağ alt sol */
+    padding-right: 45px;
+}
+
+#userMain h2 {
+    text-decoration: underline;
+    margin-top: -5px;
+}
+
+#userMain button {
+    float: right;
+    margin-left: 10px;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#userMain li {
+    padding-top: 10px;
+}
+
+#userMain ul {
+    margin-top: -10px;
+}
+
+#userMain .edit {
+    background-color: greenyellow;
+}
+
+#userMain .edit:hover {
+    background-color: rgb(6, 255, 6);
+    transition: 0.4s;
+}
+
+#userMain .delete {
+    background-color: red;
+}
+
+#userMain .delete:hover {
+    background-color: rgb(182, 1, 1);
+    transition: 0.4s;
+}
+
+#addUserMain {
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 40px 10px 40px; /* üst sağ alt sol */
+    height: 200px;
+    margin-top: 40px;
+}
+
+#addUserMain h2 {
+    text-decoration: underline;
+    margin-top: -5px;
+}
+
+#addUserMain input {
+    margin-bottom: 10px;
+}
+
+#addUserMain button {
+    width: 77%;
+    float: right;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#addUserMain button:hover {
+    font-size: 15px;
+    transition: 0.2s;
+    background-color: greenyellow;
+}
+
+#addUserMain .name {
+    margin-left: 22px;
+}
+
+#mainUpdateUser {
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 40px 10px 40px; /* üst sağ alt sol */
+    height: 200px;
+    margin-top: 40px;
+}
+
+#mainUpdateUser h2 {
+    text-decoration: underline;
+    margin-top: -5px;
+}
+
+#mainUpdateUser input {
+    margin-bottom: 10px;
+}
+
+#mainUpdateUser button {
+    width: 77%;
+    float: right;
+    background-color: rgb(221, 221, 221);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#mainUpdateUser button:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+#mainUpdateUser .name {
+    margin-left: 22px;
+}
+
+#velseUpdateUser {
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px 10px 40px; /* üst sağ alt sol */
+    height: 200px;
+    margin-top: 40px;
+    width: 345px;
+}
+
+#velseUpdateUser strong {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Daha küçük yazı boyutu */
+    }
+
+    #mainPage {
+        flex-direction: column; /* Öğeleri dikey hizalar */
+    }
+
+    #userMain, #addUserMain, #mainUpdateUser, #velseUpdateUser {
+        width: 90%; /* Genişlik cihaz ekranına göre ayarlanır */
+        padding: 15px; /* Daha dar iç boşluk */
+    }
+
+    #userMain ul {
+        margin-top: 0; /* Varsayılan boşlukları azaltır */
+    }
+
+    #addUserMain button, 
+    #mainUpdateUser button {
+        width: 95%; /* Düğmeler tam genişlikte olur */
+    }
+
+    #addUserMain input, 
+    #mainUpdateUser input {
+        width: 100%; /* Girdiler tam genişlikte olur */
+        margin-bottom: 10px; /* Aralarına boşluk bırakır */
+    }
+
+    #addUserMain .name {
+        margin-left: 0px
+    }
+
+    #velseUpdateUser {
+        width: 90%; /* Telefon ekranına göre genişlik ayarlanır */
+        margin-top: 20px; /* Üstten daha fazla boşluk bırakır */
+    }
+}
