@@ -165,31 +165,31 @@ hr {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 14px; /* Daha küçük yazı boyutu */
+        font-size: 14px; 
     }
 
     #mainPage {
-        flex-direction: column; /* Öğeleri dikey hizalar */
+        flex-direction: column; 
     }
 
     #userMain, #addUserMain, #mainUpdateUser, #velseUpdateUser {
-        width: 90%; /* Genişlik cihaz ekranına göre ayarlanır */
-        padding: 15px; /* Daha dar iç boşluk */
+        width: 90%; 
+        padding: 15px; 
     }
 
     #userMain ul {
-        margin-top: 0; /* Varsayılan boşlukları azaltır */
+        margin-top: 0;
     }
 
     #addUserMain button, 
     #mainUpdateUser button {
-        width: 95%; /* Düğmeler tam genişlikte olur */
+        width: 95%;
     }
 
     #addUserMain input, 
     #mainUpdateUser input {
-        width: 100%; /* Girdiler tam genişlikte olur */
-        margin-bottom: 10px; /* Aralarına boşluk bırakır */
+        width: 100%;
+        margin-bottom: 10px; 
     }
 
     #addUserMain .name {
@@ -197,7 +197,7 @@ hr {
     }
 
     #velseUpdateUser {
-        width: 90%; /* Telefon ekranına göre genişlik ayarlanır */
-        margin-top: 20px; /* Üstten daha fazla boşluk bırakır */
+        width: 90%;
+        margin-top: 20px;
     }
 }
