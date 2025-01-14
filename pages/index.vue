@@ -140,7 +140,7 @@ export default {
 
       } catch (err) {
         if (err.response && err.response.data) {
-          alert(`${err.response.data.message || err.response.data}`);  
+          alert(`${err.response.data.message}`);   
           this.error = err.response.data.message
         }  
 
