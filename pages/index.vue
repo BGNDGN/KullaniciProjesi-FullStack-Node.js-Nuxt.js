@@ -137,8 +137,17 @@ export default {
         await this.fetchUsers(); 
         this.newUser = { name: '', email: '' }; 
         alert('Yeni kullanıcı başarıyla eklendi!');
+
       } catch (err) {
-        this.error = 'Kullanıcı eklenirken hata oluştu';
+        if (err.response && err.response.data) {
+          alert(`${err.response.data.message || err.response.data}`);  
+          this.error = err.response.data.message
+        }  
+
+        else {
+          this.error = 'Kullanıcı eklenirken bir hata oluştu.';  
+        }
+
       } finally {
         this.loading = false;
       }
