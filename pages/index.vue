@@ -1,7 +1,7 @@
 <template>
   <div id="mainPage">
     <h1>Kullanıcı Bilgileri</h1>
-    <hr> 
+    <hr>
 
     <!-- Kullanıcılar Listesi -->
     <div id="userMain">
