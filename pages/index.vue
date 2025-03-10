@@ -1,6 +1,6 @@
 <template>
   <div id="mainPage">
-    <h1>Kullanıcı Bilgileriii</h1>
+    <h1>Kullanıcı Bilgileri</h1>
     <hr>
 
     <!-- Kullanıcılar Listesi -->
